@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/icanjs/steal-svg.svg?branch=master)](https://travis-ci.org/icanjs/steal-svg)
+[![Build Status](https://travis-ci.org/stealjs/steal-svg.svg?branch=master)](https://travis-ci.org/stealjs/steal-svg)
 [![npm version](https://badge.fury.io/js/steal-svg.svg)](https://badge.fury.io/js/steal-coffee)
 
 # StealJS plugin for SVG.
