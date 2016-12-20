@@ -1,5 +1,3 @@
-const Entities = require('html-entities').AllHtmlEntities;
-const e = new Entities();
 const xmlTagRegex = new RegExp(/<\?xml(.*?)?>/, 'gi');
 const nsRegex = new RegExp(/xmlns(.*?)"(.*?)"/, 'gi');
 
