@@ -20,17 +20,14 @@ You'll want to also update your `steal` config:
   "steal": {
     "plugins": [
       "steal-svg"
-    ],
-    "ext": {
-      "svg": "steal-svg"
-    }
+    ]
   }
 }
 ```
 
 ## Use
 
-After you've installed the plugin you can just start using it directly.  When you import an SVG file, `steal-svg` will remove any XML-related namespaces and attributes from the svg content.  This allows you to directly use the file in templating libraries.  The original svg file remains in its original form, so it can be used in `<img src="my.svg">` tags, still.
+After you've installed the plugin, when you import an SVG file `steal-svg` will remove any XML-related namespaces and attributes from the svg content.  This allows you to directly use the file in templating libraries.  The original svg file remains in its original form, so it can be used in `<img src="my.svg">` tags, still.
 
 ### Can-Stache Inline SVG example:
 

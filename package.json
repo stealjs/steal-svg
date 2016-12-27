@@ -6,5 +6,10 @@
   "repository": "https://github.com/stealjs/steal-svg",
   "author": "Marshall Thompson - marshall@creativeideal.net",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {},
+  "steal": {
+    "ext": {
+      "svg" : "steal-svg"
+    }
+  }
 }
