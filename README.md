@@ -5,7 +5,7 @@
 
 Steal ([StealJS](http://stealjs.com/)) is a module loader with sane defaults. Say goodbye to debugging complicated configuration steps. It supports various module formats out of the box (ES6, CommonJS, AMD), and you can even use **a combination of multiple formats!** Steal will figure it out for you.
 
-With the _steal-svg_ plugin Steal can load SVG files into your application.
+With the _steal-svg_ plugin, Steal can bundle SVG files with your application.
 
 ## Install
 
@@ -30,7 +30,7 @@ You'll want to also update your `steal` config:
 
 ## Use
 
-After you've installed the plugin you can just start using it directly.
+After you've installed the plugin you can just start using it directly.  When you import an SVG file, `steal-svg` will remove any XML-related namespaces and attributes from the svg content.  This allows you to directly use the file in templating libraries.  The original svg file remains in its original form, so it can be used in `<img src="my.svg">` tags, still.
 
 ### Can-Stache Inline SVG example:
 
