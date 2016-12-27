@@ -13,13 +13,36 @@ With the _steal-svg_ plugin Steal can load SVG files into your application.
 npm install steal-svg --save
 ```
 
+You'll want to also update your `steal` config:
+
+```json
+{
+  "steal": {
+    "plugins": [
+      "steal-svg"
+    ],
+    "ext": {
+      "svg": "steal-svg"
+    }
+  }
+}
+```
+
 ## Use
 
 After you've installed the plugin you can just start using it directly.
 
-### Stache Inline SVG example:
+### Can-Stache Inline SVG example:
 
-Coming soon.
+Stache is capable of inlining SVG without the need for a separate helper.  You can use any imported SVG content directly in the template using the [{{{EXPRESSION}}}](http://canjs.com/doc/can-stache.tags.unescaped.html) tag.
+
+```handlebars
+<can-import from="img/my-svg.svg" {^@value}="logoSvg"/>
+
+<div class="logo">
+  {{{logoSvg}}}
+</div>
+```
 
 ### React Inline SVG example:
 In your HTML page, create a `root` element and use a script tag to bring in StealJS:
