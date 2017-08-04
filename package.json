@@ -1,6 +1,6 @@
 {
   "name": "steal-svg",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "An SVG loader for StealJS",
   "main": "steal-svg.js",
   "repository": "https://github.com/stealjs/steal-svg",
@@ -9,7 +9,7 @@
   "dependencies": {},
   "steal": {
     "ext": {
-      "svg" : "steal-svg"
+      "svg": "steal-svg"
     }
   }
 }
